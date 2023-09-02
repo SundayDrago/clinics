@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../assets1/css/style.css">
+  <title>Appointments - Clinic Website</title>
+</head>
+<body>
+    <!-- ... (navbar code) ... -->
+    <!-------------------Navigation Bar--------------------------------------->
+    <nav class="navbar">
+        <div class="logo">
+          <img src="clinic-logo.png" alt="Clinic Logo">
+        </div>
+        <div class="nav-links" id="navLinks">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="doctors.html">Doctors</a></li>
+            <li><a href="appointment.html">Appointments</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="burger" onclick="toggleNav()">
+          <div class="line"></div>
+          <div class="line"></div>
+          <div class="line"></div>
+        </div>
+        
+      </nav>
+
+
+  <section class="appointment-section">
+    <h1>Book an Appointment</h1>
+    <form id="appointment-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <input type="date" placeholder="Date" required>
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Request Appointment</button>
+    </form>
+  </section>
+
+  <section class="footer">
+    <div class="footer-content">
+      <div class="footer-logo">
+        <img src="footer-logo.png" alt="Footer Logo">
+      </div>
+      <div class="footer-contact">
+        <p>Contact Us:</p>
+        <p>+123 456 7890</p>
+        <p>info@example.com</p>
+      </div>
+      <div class="footer-social">
+        <a href="#"><i class="fa fa-facebook"></i></a>
+        <a href="#"><i class="fa fa-twitter"></i></a>
+        <a href="#"><i class="fa fa-instagram"></i></a>
+        <a href="#"><i class="fa fa-linkedin"></i></a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2023 Timson Clinic. All rights reserved.</p>
+    </div>
+  </section>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
